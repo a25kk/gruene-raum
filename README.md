@@ -1,2 +1,1 @@
-gruene-raum
-===========
+This repository holds the configuration and site packages for neue Grüne Raum buildout-based website v2.
