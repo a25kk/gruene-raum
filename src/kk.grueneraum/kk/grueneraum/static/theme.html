@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<title>Blueprint Theme</title>
+    <base href="#" />
+    <link rel="stylesheet" href="css/grid16.css" type="text/css" media="screen" />
+	<link rel="stylesheet/css" href="css/styles.css" type="text/css" media="screen" />
+	<!--[if IE]><style type="text/css" media="all">@import url(/ie.css);</style><![endif]-->
+</head>
+<body>
+	<div id="outer-wrapper">
+		<div id="header-wrapper">
+			<div id="logo-wrapper">
+				<div id="logo"><a href="/"><img src="images/logo.gif"></a></div>
+				<div class="claim">Die Ernährungsberatung für Sportler</div>
+			</div>
+			<div id="social">
+				<a href="#" title="Twitter">
+					<img alt="Twitter" src="images/twitter.gif" width="33" height="33"></a>
+				<a href="#" title="Facebook">
+					<img alt="Facebook" src="images/facebook.gif" width="33" height="33"></a>
+					<div class="contact">
+						<a href="/kontakt">Kontakt</a> &bull; <a href="/impressum">Impressum</a>
+					</div>
+			</div>
+			<div class="visualClear"><!-- --></div>	
+		</div>
+		<div id="inner-wrapper">
+			<div id="navigation-wrapper">
+				<ul id="main-nav">
+				</ul>
+				<div class="visualClear"><!-- --></div>
+			</div>
+			<div id="content-wrapper">
+				<div id="above-content"></div>
+				<div class="visualClear"><!-- --></div>
+				<div id="editbar-wrapper">
+					<div id="editbar"></div>
+				</div>
+				<div id="main-content">
+					<div class="row">
+						<div id="breadcrumbs"></div>
+						<div>
+							<div id="content">
+							</div>
+							<div class="visualClear"><!-- --></div>
+						</div>
+					</div>
+					<div class="visualClear"><!-- --></div>
+				</div>
+				<div id="below-content"></div>
+				<div style="clear:both"><!-- --></div>
+		</div>
+		<div id="footer-wrapper">
+			<div id="footer">
+				<div class="copy"><p>Copyright &copy; 2012</p></div>
+				<div class="info"><b>topathlEAT</b> &bull; Arnikaweg 3 &bull; 85521 Ottobrunn &bull; <a href="mailto:info@topathleat.de">E-Mail</a></p></div>
+			</div>
+			<div class="visualClear"><!-- --></div>
+		</div>
+	</div>
+
+
+<script type="text/javascript"> 
+jq(document).ready(function(){ 
+	
+	jq(".toggle_container").hide(); 
+
+	jq("h2.trigger").click(function(){ 
+
+		jq(this).toggleClass("active").next().slideToggle("slow"); 
+	}); 
+
+}); 
+</script>
+
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://admin.kreativkombinat.de/piwik/" : "http://admin.kreativkombinat.de/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 21);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://admin.kreativkombinat.de/piwik/piwik.php?idsite=21" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+
+</body>
+</html>

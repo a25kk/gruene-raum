@@ -1,0 +1,273 @@
+/* Portlets */
+.portlet {
+  margin: 0px 0px 10px 0px !important;
+  background: transparent !important;
+  border: 0px solid black;
+  padding: 0px;
+  color: #4c4c4c !important;
+}
+.portlet a {
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+  font-size: 85%;
+}
+.portlet a.tile {
+  display: block;
+  color: black;
+  font-weight: bold;
+  font-size: 100%;
+}
+.portletItem ul {
+  list-style-type: none;
+}
+.lastItem {
+  padding: 0px !important;
+}
+.portletItem p {
+  padding: 20px !important;
+  margin: 0px;
+  font-size: 0.8em !important;
+  line-height: 1.5em;
+}
+.portletItem a,
+.portletFooter a {
+  border-bottom: none;
+}
+.portletFooter a {
+  border-bottom: none;
+  background: transparent !important;
+  padding: 0px 20px 0px 0px;
+  color: #4c4c4c !important;
+  -webkit-transition: color 0.5s ease-in;
+  -moz-transition: color 0.5s ease-in;
+  -o-transition: color 0.5s ease-in;
+  transition: color 0.5s ease-in;
+  font-weight: normal !important;
+}
+.portletHeader,
+.managedPortlet .portletHeader {
+  background: url("../images/bg-globalnav.gif") repeat-x 0px -8px transparent;
+  padding: 10px 0px 10px 10px !important;
+  font-weight: normal;
+  margin: 0px;
+  font-size: 1em;
+  -moz-border-radius: 3px 3px 0px 0px;
+  -webkit-border-radius: 3px 3px 0px 0px;
+  border-radius: 3px 3px 0px 0px;
+  behavior: url(++theme++kk.top/js/PIE.htc);
+}
+.portletHeader a,
+.managedPortlet .portletHeader a {
+  outline: none;
+  color: white!important;
+  font-weight: normal !important;
+  -webkit-transition: color 0.5s ease-in;
+  -moz-transition: color 0.5s ease-in;
+  -o-transition: color 0.5s ease-in;
+  transition: color 0.5s ease-in;
+}
+.portletItem {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  border: 0px dotted #ccc;
+  background: transparent !important;
+}
+.portletItem ol {
+  margin: 0 0 0 1em;
+}
+.portletItemDetails {
+  text-align: left;
+  display: block;
+  color: black;
+  font-size: 100%;
+  color: #999999;
+}
+span.portletItemDetails {
+  display: block;
+}
+.portletFooter {
+  background: transparent !important;
+  margin: 0px !important;
+  padding: 20px 15px 12px 0px;
+  border: 0px;
+  text-align: left;
+  height: 120px;
+}
+.portletStaticText ul {
+  list-style-image: url(&dtml-portal_url;/bullet.gif);
+  list-style-type: square;
+  margin: 0.5em 0 0 1.5em;
+}
+.portletStaticText ol {
+  margin: 0.5em 0 0 2em;
+}
+#portal-column-one fieldset.livesearchContainer {
+  right: inherit !important;
+  top: 1.5em !important;
+}
+.portletNavigationTree {
+  padding: 0px;
+  margin: 0px 0px 0px 0px;
+  list-style: none !important;
+  list-style-image: none !important;
+  line-height: 1em;
+  background: #e7f6f6;
+}
+.portletNavigationTree .portletItem {
+  border: 0px solid red !important;
+  margin: 0px 0px 0px 0px !important;
+  width: 235px;
+}
+.portletNavigationTree .lastItem {
+  padding: 0px 0px 0px 0px !important;
+  border: 0px solid black;
+  width: 235px;
+}
+.portletNavigationTree .portletHeader {
+  background: transparent !important;
+  border: 0px solid #ffe600;
+  padding: 15px 0px 40px 0px !important;
+  font-weight: normal;
+  line-height: 1.6em;
+  height: 20px;
+  margin: 0px 0px 30px 0px;
+  font-size: 2em !important;
+  width: 100%;
+}
+.navTree {
+  list-style: none;
+  list-style-image: none;
+  margin-top: 1px;
+}
+.navTree li {
+  margin: 0px !important;
+  border: 1px dotted #cccccc;
+  border-width: 0px 0px 1px 0px;
+}
+.navTreeItem {
+  padding: 0px;
+  margin: 0;
+  font-size: 90%;
+  font-weight: bold;
+}
+.navTreeItem a,
+dd.portletItem .navTreeItem a {
+  border: 0px !important;
+  display: block;
+  text-decoration: none;
+  padding: 0px 0px 0px 0px !important;
+  color: black;
+  margin: 0px 0px 0px 0px;
+  font-weight: bold;
+  font-size: 115% !important;
+}
+.navTreeItem a:hover {
+  color: black !important;
+}
+.navTreeCurrentItem span {
+  color: black !important;
+  text-transform: none;
+}
+.hasChildrens {
+  border: 1px solid red;
+}
+.contenttype-formfolder img {
+  display: none;
+}
+* html li.navTreeCurrentItem a,
+* html li.navTreeCurrentItem a:hover {
+  height: 1.6em;
+}
+.navTreeLevel0 {
+  margin: 0px 0px 0px 0px !important;
+  border: 0px solid red !important;
+  text-transform: none;
+}
+.navTreeLevel1 {
+  margin-left: 0px !important;
+  text-transform: none;
+  font-size: 110% !important;
+}
+.navTreeItem .navTreeLevel1 li a:link {
+  color: white: !important;
+}
+.navTreeLevel2 {
+  margin-left: 0px !important;
+}
+.navTreeLevel3 {
+  margin-left: 0px !important;
+}
+.even {
+  background: transparent;
+}
+div.position-0 {
+  margin-left: -100% !important;
+}
+div.position-1\:3 {
+  margin-left: -66% !important;
+}
+div.position-2\:3 {
+  margin-left: -32%;
+}
+div.width-1\:3 {
+  width: 298px !important;
+}
+#portlets-below {
+  border: 0px solid black;
+  margin: 10px 0px 10px 0px;
+}
+.BelowPortletManager1 {
+  border: 0px solid red;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: #eeeeee;
+  behavior: url(++theme++kk.top/js/PIE.htc);
+  position: relative;
+  margin: 10px 0px 0px 0px !important;
+}
+.BelowPortletManager2 {
+  border: 0px solid red;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: #eeeeee;
+  behavior: url(++theme++kk.top/js/PIE.htc);
+  position: relative;
+  margin: 10px 0px 0px 0px;
+}
+.BelowPortletManager3 {
+  border: 0px solid red;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: #eeeeee;
+  behavior: url(++theme++kk.top/js/PIE.htc);
+  position: relative;
+  margin: 10px 0px 0px 0px;
+}
+#portlets-below .portlet {
+  margin: 0px 0px 0px 0px;
+  border-bottom: 0px;
+  background: transparent !important;
+  border: 0px solid black;
+  padding: 0px 0px 10px 0px;
+  color: #4c4c4c !important;
+  font-size: 1em;
+  color: white;
+  text-shadow: none;
+}
+#portlets-below .portletHeader span,
+#portlets-below .portletHeader a:link,
+#portlets-below .portletHeader a:visited {
+  text-transform: uppercase;
+  padding: 3px 0px 5px 40px !important;
+  color: #ffffff !important;
+  text-shadow: none;
+  font-size: 1em !important;
+  background: url("../images/icon.png") no-repeat 0px 0px transparent;
+}
+.image-portlet {
+  border: 0px solid red;
+}
