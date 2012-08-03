@@ -13,7 +13,7 @@
  <stylesheet title="" authenticated="False" cacheable="True"
     compression="safe" conditionalcomment="" cookable="True" enabled="on"
     expression="request/HTTP_X_THEME_ENABLED | nothing"
-    id="++theme++kk.top/css/portlets.css" media="" rel="stylesheet"
+    id="++theme++kk.grueneraum/css/portlets.css" media="" rel="stylesheet"
     rendering="link"
     applyPrefix="True"
     />
@@ -21,7 +21,7 @@
  <stylesheet title="" authenticated="False" cacheable="True"
     compression="safe" conditionalcomment="" cookable="True" enabled="on"
     expression="request/HTTP_X_THEME_ENABLED | nothing"
-    id="++theme++kk.top/css/styles.css" media="" rel="stylesheet"
+    id="++theme++kk.grueneraum/css/styles.css" media="" rel="stylesheet"
     rendering="link"
     applyPrefix="True"
     />

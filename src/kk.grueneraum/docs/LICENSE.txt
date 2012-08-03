@@ -1,4 +1,4 @@
-  kk.top is copyright Kreativkombinat GbR
+  kk.grueneraum is copyright Kreativkombinat GbR
 
   This program is free software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by

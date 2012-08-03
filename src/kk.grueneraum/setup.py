@@ -3,7 +3,7 @@ import os
 
 version = '1.0'
 
-setup(name='kk.top',
+setup(name='kk.grueneraum',
       version=version,
       description="",
       long_description=open("README.txt").read() + "\n" +

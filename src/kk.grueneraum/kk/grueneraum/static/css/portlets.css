@@ -55,7 +55,7 @@
   -moz-border-radius: 3px 3px 0px 0px;
   -webkit-border-radius: 3px 3px 0px 0px;
   border-radius: 3px 3px 0px 0px;
-  behavior: url(++theme++kk.top/js/PIE.htc);
+  behavior: url(++theme++kk.grueneraum/js/PIE.htc);
 }
 .portletHeader a,
 .managedPortlet .portletHeader a {
@@ -223,7 +223,7 @@ div.width-1\:3 {
   -moz-border-radius: 3px;
   border-radius: 3px;
   background: #eeeeee;
-  behavior: url(++theme++kk.top/js/PIE.htc);
+  behavior: url(++theme++kk.grueneraum/js/PIE.htc);
   position: relative;
   margin: 10px 0px 0px 0px !important;
 }
@@ -233,7 +233,7 @@ div.width-1\:3 {
   -moz-border-radius: 3px;
   border-radius: 3px;
   background: #eeeeee;
-  behavior: url(++theme++kk.top/js/PIE.htc);
+  behavior: url(++theme++kk.grueneraum/js/PIE.htc);
   position: relative;
   margin: 10px 0px 0px 0px;
 }
@@ -243,7 +243,7 @@ div.width-1\:3 {
   -moz-border-radius: 3px;
   border-radius: 3px;
   background: #eeeeee;
-  behavior: url(++theme++kk.top/js/PIE.htc);
+  behavior: url(++theme++kk.grueneraum/js/PIE.htc);
   position: relative;
   margin: 10px 0px 0px 0px;
 }

@@ -28,7 +28,7 @@
             <drop theme="/html/head/link" />
         
             <after theme-children="/html/head">
-                <link rel="shortcut icon" href="/++theme++kk.top/images/favicon.ico" type="image/x-icon" />
+                <link rel="shortcut icon" href="/++theme++kk.grueneraum/images/favicon.ico" type="image/x-icon" />
             </after> 
         
         <!-- Copy over the id/class attributes on the body tag.
