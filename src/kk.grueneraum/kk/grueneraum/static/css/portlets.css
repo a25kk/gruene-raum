@@ -48,7 +48,7 @@
 .portletHeader,
 .managedPortlet .portletHeader {
   background: transparent;
-  padding: 10px 0px 10px 10px !important;
+  padding: 10px !important;
   font-weight: normal;
   margin: 0px;
   font-size: 1em;
@@ -92,10 +92,10 @@ span.portletItemDetails {
 .portletFooter {
   background: transparent !important;
   margin: 0px !important;
-  padding: 10px;
+  padding: 0px;
   border: 1px solid red;
-  text-align: center;
-  font-size: 1em;
+  text-align: center !important;
+  font-size: 0.8em;
 }
 .portletStaticText ul {
   list-style-image: url(&dtml-portal_url;/bullet.gif);
@@ -159,9 +159,9 @@ dd.portletItem .navTreeItem a {
   border: 0px !important;
   display: block;
   text-decoration: none;
-  padding: 0px 0px 0px 0px !important;
+  padding: 0px !important;
   color: black;
-  margin: 0px 0px 0px 0px;
+  margin: 0px;
   font-weight: bold;
   font-size: 115% !important;
 }
@@ -207,6 +207,7 @@ dd.portletItem .navTreeItem a {
 
 #portlets-above {
   border: 0px solid black;
+  margin: 0px 0px 10px 0px;
 
 }
 .AbovePortletManager1 {
@@ -235,13 +236,14 @@ dd.portletItem .navTreeItem a {
   font-size: 1em;
   color: white;
   text-shadow: none;
+  min-height: 350px;
 }
 #portlets-above .portletHeader span,
 #portlets-above .portletHeader a:link,
 #portlets-above .portletHeader a:visited {
   text-transform: uppercase;
   padding: 0px !important;
-  color: #ffffff !important;
+  color: #a6cb73 !important;
   text-shadow: none;
   font-size: 1em !important;
   background: transparent;

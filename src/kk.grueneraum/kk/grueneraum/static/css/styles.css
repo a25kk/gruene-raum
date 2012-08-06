@@ -31,7 +31,7 @@ code {
 }
 a {
   outline: none !important;
-  color: #cb2127;
+  color: #a6cb73;
 }
 table {
   border-spacing: 0;
@@ -86,13 +86,13 @@ h1 {
 }
 h2 {
   font-size: 1.3em;
-  color: #cb2127 !important;
+  color: #a6cb73 !important;
   font-weight: normal;
   margin: 20px 0px 20px 0px;
 }
 h3 {
-  font-size: 1.0em;
-  margin: 10px 0px 10px 0px;
+  font-size: 0.8em;
+  margin: 5px 0px 5px 0px;
 }
 h4 {
   font-size: 0.8em;
@@ -110,7 +110,7 @@ h4 a {
 }
 a:link,
 a:visited {
-  color: #cb2127;
+  color: #a6cb73;
   outline: none;
 }
 a:focus img {
@@ -207,7 +207,7 @@ input {
 .carousel-pager-item-active:link,
 .carousel-pager-item-active:visited {
   color: white;
-  background: #cb2127;
+  background: #a6cb73;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -253,7 +253,7 @@ input {
 }
 .carousel-title {
   font-size: 1.6em;
-  color: #cb2127;
+  color: #a6cb73;
   text-shadow: none;
 }
 .carousel-body {
@@ -325,7 +325,7 @@ ul#main-nav {
 .gallery-title {
   border: 0px solid red;
   margin: 60px 0px 20px 0px !important;
-  color: #cb2127 !important;
+  color: #a6cb73 !important;
   font-weight: normal;
   text-transform: uppercase !important;
   font-size: 1.8em !important;
@@ -334,7 +334,7 @@ ul#main-nav {
 }
 .photoAlbumEntry {
   border: 1px solid white;
-  color: #cb2127 !important;
+  color: #a6cb73 !important;
   -webkit-border-radius: 3px !important;
   -moz-border-radius: 3px !important;
   border-radius: 3px !important;
@@ -395,14 +395,14 @@ ul#main-nav {
 }
 #navigation a:link h2,
 #navigation a:visited h2 {
-  color: #cb2127 !important;
+  color: #a6cb73 !important;
   line-height: 1em;
   font-size: 2em;
   margin: 0px 0px 20px 0px;
   font-weight: normal !important;
 }
 #navigation a:hover {
-  background: #cb2127;
+  background: #a6cb73;
   /* Fallback */
 
   background-color: rgba(0, 100, 171, 0.5);
@@ -508,15 +508,15 @@ dl.portlet {
 }
 #content a:link,
 dl.portlet a:link {
-  color: #cb2127;
+  color: #a6cb73;
 }
 #content a:visited,
 dl.portlet a:visited {
-  color: #cb2127;
+  color: #a6cb73;
 }
 #content a:hover,
 dl.portlet a:hover {
-  color: #cb2127 !important;
+  color: #a6cb73 !important;
 }
 #content a:target {
   background-color: #ffb;
@@ -571,7 +571,7 @@ dl.portlet li {
 #content div.documentByLine a:link,
 #content div.documentByLine a:visited,
 #content div.documentByLine a:hover {
-  color: #cb2127 !important;
+  color: #a6cb73 !important;
 }
 #content .discreet,
 #sidebar .discreet {
@@ -1531,7 +1531,7 @@ div.overlay label {
   margin-bottom: 0.25em;
 }
 div.overlay a:hover {
-  color: #cb2127;
+  color: #a6cb73;
 }
 div.overlay a.selected {
   color: #000000;
@@ -1655,19 +1655,19 @@ div.overlay .formControls a {
   display: inline;
   border: 0px solid red;
   outline: none !important;
-  color: #cb2127;
+  color: #a6cb73;
 }
 #social a:visited {
   display: inline;
   border: 0px solid red;
   outline: none !important;
-  color: #cb2127;
+  color: #a6cb73;
 }
 #social a:hover {
   display: inline;
   outline: none !important;
   border: 0px solid red;
-  color: #cb2127;
+  color: #a6cb73;
 }
 .contact {
   text-align: right;
@@ -1676,7 +1676,7 @@ div.overlay .formControls a {
   padding: 40px 0px 0px 0px;
   text-transform: uppercase;
   font-size: 0.8em;
-  color: #cb2127;
+  color: #a6cb73;
 }
 /* footer */
 #footer-wrapper {
@@ -1764,7 +1764,7 @@ h2.trigger {
   float: left;
   font-size: 1.2em;
   text-transform: uppercase;
-  color: #cb2127 !important;
+  color: #a6cb73 !important;
   -webkit-border-radius: 3px !important;
   -moz-border-radius: 3px !important;
   border-radius: 3px !important;
