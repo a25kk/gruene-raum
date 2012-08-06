@@ -1,7 +1,7 @@
 /* Portlets */
 .portlet {
   margin: 0px 0px 10px 0px !important;
-  background: transparent !important;
+  background: #ededed !important;
   border: 0px solid black;
   padding: 0px;
   color: #4c4c4c !important;
@@ -47,20 +47,22 @@
 }
 .portletHeader,
 .managedPortlet .portletHeader {
-  background: url("../images/bg-globalnav.gif") repeat-x 0px -8px transparent;
+  background: transparent;
   padding: 10px 0px 10px 10px !important;
   font-weight: normal;
   margin: 0px;
   font-size: 1em;
-  -moz-border-radius: 3px 3px 0px 0px;
-  -webkit-border-radius: 3px 3px 0px 0px;
-  border-radius: 3px 3px 0px 0px;
-  behavior: url(++theme++kk.grueneraum/js/PIE.htc);
+  border-top: 10px solid #999999;
 }
+
+.portletHeader {
+  text-align: center;
+}
+
 .portletHeader a,
 .managedPortlet .portletHeader a {
   outline: none;
-  color: white!important;
+  color: #5c7277 !important;
   font-weight: normal !important;
   -webkit-transition: color 0.5s ease-in;
   -moz-transition: color 0.5s ease-in;
@@ -69,15 +71,16 @@
 }
 .portletItem {
   margin: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
+  padding: 0px;
   border: 0px dotted #ccc;
   background: transparent !important;
+  text-align: center;
 }
 .portletItem ol {
   margin: 0 0 0 1em;
 }
 .portletItemDetails {
-  text-align: left;
+  text-align: center;
   display: block;
   color: black;
   font-size: 100%;
@@ -89,10 +92,10 @@ span.portletItemDetails {
 .portletFooter {
   background: transparent !important;
   margin: 0px !important;
-  padding: 20px 15px 12px 0px;
-  border: 0px;
-  text-align: left;
-  height: 120px;
+  padding: 10px;
+  border: 1px solid red;
+  text-align: center;
+  font-size: 1em;
 }
 .portletStaticText ul {
   list-style-image: url(&dtml-portal_url;/bullet.gif);
@@ -201,53 +204,28 @@ dd.portletItem .navTreeItem a {
 .even {
   background: transparent;
 }
-div.position-0 {
-  margin-left: -100% !important;
-}
-div.position-1\:3 {
-  margin-left: -66% !important;
-}
-div.position-2\:3 {
-  margin-left: -32%;
-}
-div.width-1\:3 {
-  width: 298px !important;
-}
-#portlets-below {
+
+#portlets-above {
   border: 0px solid black;
-  margin: 10px 0px 10px 0px;
+
 }
-.BelowPortletManager1 {
+.AbovePortletManager1 {
   border: 0px solid red;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
   background: #eeeeee;
-  behavior: url(++theme++kk.grueneraum/js/PIE.htc);
-  position: relative;
-  margin: 10px 0px 0px 0px !important;
 }
-.BelowPortletManager2 {
+.AbovePortletManager2 {
   border: 0px solid red;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
   background: #eeeeee;
-  behavior: url(++theme++kk.grueneraum/js/PIE.htc);
-  position: relative;
-  margin: 10px 0px 0px 0px;
 }
-.BelowPortletManager3 {
+.AbovePortletManager3 {
   border: 0px solid red;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
   background: #eeeeee;
-  behavior: url(++theme++kk.grueneraum/js/PIE.htc);
-  position: relative;
-  margin: 10px 0px 0px 0px;
 }
-#portlets-below .portlet {
+.AbovePortletManager4 {
+  border: 0px solid red;
+  background: #eeeeee;
+}
+#portlets-above .portlet {
   margin: 0px 0px 0px 0px;
   border-bottom: 0px;
   background: transparent !important;
@@ -258,16 +236,161 @@ div.width-1\:3 {
   color: white;
   text-shadow: none;
 }
-#portlets-below .portletHeader span,
-#portlets-below .portletHeader a:link,
-#portlets-below .portletHeader a:visited {
+#portlets-above .portletHeader span,
+#portlets-above .portletHeader a:link,
+#portlets-above .portletHeader a:visited {
   text-transform: uppercase;
-  padding: 3px 0px 5px 40px !important;
+  padding: 0px !important;
   color: #ffffff !important;
   text-shadow: none;
   font-size: 1em !important;
-  background: url("../images/icon.png") no-repeat 0px 0px transparent;
+  background: transparent;
 }
 .image-portlet {
   border: 0px solid red;
+}
+
+div.row {
+    display: block;
+    float: left;
+    position: relative;
+    width: 100%;
+}
+div.cell {
+    float: left;
+    left: 100%;
+    position: relative;
+}
+.ie6 div.cell {
+    float: none;
+}
+div.width-1 {
+    width: 4%;
+}
+div.width-2 {
+    width: 10.25%;
+}
+div.width-3 {
+    width: 16.5%;
+}
+div.width-4 {
+    width: 22.75%;
+}
+div.width-5 {
+    width: 29%;
+}
+div.width-6 {
+    width: 35.25%;
+}
+div.width-7 {
+    width: 41.5%;
+}
+div.width-8 {
+    width: 47.75%;
+}
+div.width-9 {
+    width: 54%;
+}
+div.width-10 {
+    width: 60.25%;
+}
+div.width-11 {
+    width: 66.5%;
+}
+div.width-12 {
+    width: 72.75%;
+}
+div.width-13 {
+    width: 79%;
+}
+div.width-14 {
+    width: 85.25%;
+}
+div.width-15 {
+    width: 91.5%;
+}
+div.width-16 {
+    width: 97.75%;
+}
+div.position-0 {
+    margin-left: -99.7%;
+}
+div.position-1 {
+    margin-left: -92.625%;
+}
+div.position-2 {
+    margin-left: -86.375%;
+}
+div.position-3 {
+    margin-left: -80.125%;
+}
+div.position-4 {
+    margin-left: -73.875%;
+}
+div.position-5 {
+    margin-left: -67.625%;
+}
+div.position-6 {
+    margin-left: -61.375%;
+}
+div.position-7 {
+    margin-left: -55.125%;
+}
+div.position-8 {
+    margin-left: -48.875%;
+}
+div.position-9 {
+    margin-left: -42.625%;
+}
+div.position-10 {
+    margin-left: -36.375%;
+}
+div.position-11 {
+    margin-left: -30.125%;
+}
+div.position-12 {
+    margin-left: -23.875%;
+}
+div.position-13 {
+    margin-left: -17.625%;
+}
+div.position-14 {
+    margin-left: -11.375%;
+}
+div.position-15 {
+    margin-left: -5.125%;
+}
+div.width-1\:2 {
+    width: 47.75%;
+}
+div.width-1\:4 {
+    width: 225px;
+    border: 0px solid red !important;
+}
+div.width-3\:4 {
+    width: 72.75%;
+}
+div.width-full {
+    width: 97.75%;
+}
+div.position-1\:4 {
+    margin-left: -74.6%;
+}
+div.position-1\:2 {
+    margin-left: -49.4%;
+}
+div.position-3\:4 {
+    margin-left: -24.2%;
+}
+div.width-1\:3 {
+    width: 31.08%;
+}
+div.width-2\:3 {
+    width: 64.42%;
+}
+div.position-1\:3 {
+    margin-left: -65.545%;
+}
+div.position-2\:3 {
+    margin-left: -32.205%;
 }

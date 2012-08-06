@@ -70,7 +70,7 @@ body {
   margin: 0;
   padding: 0;
   text-shadow: 0px 0px 1px #ffffff;
-  background: url(../images/bg.gif) repeat-x top center #fbfbfb;
+  background: url(../images/bg.gif) repeat-x top center #ffffff;
 }
 h1,
 h2,
@@ -138,50 +138,38 @@ input {
 }
 #inner-wrapper {
   background: #ffffff;
-  padding: 20px 0px 5px 0px;
-  width: 980px;
+  padding: 0px 0px 0px 0px;
+  width: 930px;
   margin: 0px auto 0px auto !important;
-  border: 0px solid green;
-  box-shadow: 0 0 5px rgba(50, 50, 50, 0.2);
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  behavior: url(++theme++kk.grueneraum/js/PIE.htc);
-  position: relative;
   vertical-align: top;
+  border: 0px solid red;
 }
 #header-wrapper {
   margin: 0px auto 0px auto;
-  background: url(../images/bg-portal-top.gif) repeat-x top center #fbfbfb;
-  width: 960px;
+  background: transparent;
+  width: 100%;
   text-align: center;
   padding: 17px 0px 0px 0px;
   border: 0px solid black;
 }
+.header {
+  width: 930px;
+  margin: 0px auto 0px auto;
+}
 #logo-wrapper {
-  width: 45%;
+  width: 30%;
   float: left;
   border: 0px solid black;
 }
 #logo {
-  margin: 0px 0px 0px 10px;
+  margin: 35px 0px 0px 0px;
   text-align: center;
   padding: 0px;
   background: transparent;
   border: 0px solid red;
-  width: 335px;
-  height: 65px;
+  width: 249px;
+  height: 27px;
   float: left;
-}
-.claim {
-  font-size: 1.2em;
-  color: #cb2127;
-  text-align: right;
-  margin: 9px 0px 8px 10px;
-  float: left;
-  font-weight: normal;
-  border: 0px solid red;
-  letter-spacing: 0.04em;
 }
 .light {
   color: #92dfff;
@@ -189,7 +177,7 @@ input {
 #above-content {
   margin: 0px 0px 0px 0px;
   padding: 0px;
-  width: 940px;
+  width: 930px;
   border: 0	px solid red;
 }
 #content #breadcrumbs,
@@ -273,20 +261,16 @@ input {
 }
 /*portal-globalnav*/
 #navigation-wrapper {
-  -webkit-border-radius: 0px 0px 3px 3px;
-  -moz-border-radius: 0px 0px 3px 3px;
-  border-radius: 0px 0px 3px 3px;
-  background: url("../images/bg-globalnav.gif") repeat-x scroll top right transparent;
+  background: transparent;
   font-weight: normal;
   line-height: 20px;
-  margin: 0px auto 20px auto !important;
+  margin: 29px 0px 0px 0px !important;
   padding: 0px;
   white-space: nowrap !important;
   list-style: none outside none;
-  width: 940px;
-  behavior: url(++theme++kk.grueneraum/js/PIE.htc);
-  position: relative !important;
+  width: 65%;
   border: 0px solid red;
+  float: right;
 }
 #main-nav {
   border: 0px solid red;
@@ -295,33 +279,33 @@ input {
 ul#main-nav {
   border: 0px solid red;
   margin: 0px auto;
-  width: 910px;
 }
 #main-nav li {
   display: inline;
   padding: 0px;
   margin: 0px;
   border: 0px solid #cccccc;
-  float: left;
+  float: right;
   text-align: center;
-  background: url("../images/trenner.gif") no-repeat scroll top right transparent;
+  background: transparent;
 }
 #main-nav li a {
-  border: 0px;
-  color: #000000;
+  color: #5c7277;
   margin: 0px 1px 0px 0px;
-  padding: 18px 10px 8px 7px;
+  padding: 18px 5px 8px 5px;
   text-decoration: none;
   text-transform: uppercase;
   display: block;
-  font-size: 0.9em;
+  font-size: 0.7em;
   text-shadow: none;
+  border-bottom: 10px solid #ffffff;
 }
 #main-nav li a:hover,
 #main-nav li.selected a,
 #main-nav li.selected a:hover {
   color: white;
-  background: url("../images/bg-globalnav-over.gif") no-repeat scroll center 8px transparent;
+  background: transparent;
+  border-bottom: 10px solid #8bbf5d;
 }
 #main-nav #portaltab-publikationen {
   background: transparent;
@@ -453,7 +437,7 @@ ul#main-nav {
 /* CONTENT */
 #content-wrapper {
   border: 0px solid green !important;
-  width: 940px;
+  width: 930px;
   margin: 0px auto 0px auto;
 }
 #main-content {
@@ -1681,7 +1665,6 @@ div.overlay .formControls a {
 }
 #social a:hover {
   display: inline;
-  border: 0px solid red;
   outline: none !important;
   border: 0px solid red;
   color: #cb2127;
