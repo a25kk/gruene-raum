@@ -223,13 +223,8 @@ input {
   padding: 0.25em 0.6em;
 }
 .carousel-image img {
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
   background: transparent;
   margin: 0px 0px 0px 0px;
-  behavior: url(++theme++kk.grueneraum/js/PIE.htc);
-  position: relative;
 }
 .carousel-text {
   background: #efefef;
@@ -312,7 +307,7 @@ ul#main-nav {
 }
 #breadcrumbs {
   font-size: 0.7em;
-  margin: 20px 0px 0px 20px !important;
+  margin: 20px 0px 0px 0px !important;
   background: transparent;
   color: #333;
   border: 0px solid red;
@@ -1677,13 +1672,13 @@ div.overlay .formControls a {
 #footer-wrapper {
   border-top: 10px solid #999999;
   width: 100%;
-  margin: 10px auto 20px auto;
+  margin: 10px auto 0px auto;
   background: #ededed;
 }
 #footer {
   width: 930px;
   margin: 0px auto 0px auto;
-  padding: 20px 0px 20px 0px;
+  padding: 20px 0px 100px 0px;
   font-size: 0.7em;
   text-transform: uppercase;
   text-align: right;
