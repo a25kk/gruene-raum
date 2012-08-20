@@ -1,7 +1,7 @@
 /* Portlets */
 .portlet {
   margin: 0px 0px 10px 0px !important;
-  background: #ededed !important;
+  background: transparent !important;
   border: 0px solid black;
   padding: 0px;
   color: #4c4c4c !important;
@@ -48,15 +48,15 @@
 .portletHeader,
 .managedPortlet .portletHeader {
   background: transparent;
-  padding: 10px !important;
+  padding: 10px 10px 0px 20px !important;
   font-weight: normal;
   margin: 0px;
-  font-size: 1em;
+  font-size: 0.8em;
   border-top: 10px solid #999999;
 }
 
 .portletHeader {
-  text-align: center;
+  text-align: left;
 }
 
 .portletHeader a,
@@ -74,7 +74,7 @@
   padding: 0px;
   border: 0px dotted #ccc;
   background: transparent !important;
-  text-align: center;
+  text-align: left;
 }
 .portletItem ol {
   margin: 0 0 0 1em;
@@ -110,12 +110,14 @@ span.portletItemDetails {
   top: 1.5em !important;
 }
 .portletNavigationTree {
-  padding: 0px;
+  border-top: 10px solid #999999;
+  padding: 10px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
   list-style: none !important;
   list-style-image: none !important;
   line-height: 1em;
-  background: #e7f6f6;
+  background: transparent;
+  width: 100%;
 }
 .portletNavigationTree .portletItem {
   border: 0px solid red !important;
@@ -125,19 +127,9 @@ span.portletItemDetails {
 .portletNavigationTree .lastItem {
   padding: 0px 0px 0px 0px !important;
   border: 0px solid black;
-  width: 235px;
-}
-.portletNavigationTree .portletHeader {
-  background: transparent !important;
-  border: 0px solid #ffe600;
-  padding: 15px 0px 40px 0px !important;
-  font-weight: normal;
-  line-height: 1.6em;
-  height: 20px;
-  margin: 0px 0px 30px 0px;
-  font-size: 2em !important;
   width: 100%;
 }
+
 .navTree {
   list-style: none;
   list-style-image: none;
@@ -151,7 +143,6 @@ span.portletItemDetails {
 .navTreeItem {
   padding: 0px;
   margin: 0;
-  font-size: 90%;
   font-weight: bold;
 }
 .navTreeItem a,
@@ -163,7 +154,7 @@ dd.portletItem .navTreeItem a {
   color: black;
   margin: 0px;
   font-weight: bold;
-  font-size: 115% !important;
+  font-size: 0.9em !important;
 }
 .navTreeItem a:hover {
   color: black !important;
@@ -190,7 +181,6 @@ dd.portletItem .navTreeItem a {
 .navTreeLevel1 {
   margin-left: 0px !important;
   text-transform: none;
-  font-size: 110% !important;
 }
 .navTreeItem .navTreeLevel1 li a:link {
   color: white: !important;

@@ -454,8 +454,7 @@ ul#main-nav {
 #sidebar {
   border: 0px solid blue;
   line-height: 1.5em;
-  float: right;
-  padding: 50px 50px 0px 20px !important;
+  padding: 50px 0px 0px 0px !important;
   margin: 0px 0px 0px 0px !important;
   vertical-align: top !important;
   background: transparent;
