@@ -448,6 +448,8 @@ ul#main-nav {
   vertical-align: top;
   background: transparent;
   font-size: 0.9em;
+  border: 0px solid blue;
+  float: left;
 }
 #sidebar {
   border: 0px solid blue;
@@ -459,7 +461,8 @@ ul#main-nav {
   background: transparent;
   min-height: 100%;
 }
-.section-front-page #sidebar {
+.section-front-page #sidebar,
+.login_form #sidebar {
   display: none;
 }
 #sidebar-left {

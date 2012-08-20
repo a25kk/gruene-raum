@@ -4,7 +4,11 @@
     xmlns:css="http://namespaces.plone.org/diazo/css"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     
-    <!-- <theme href="frontpage.html" css:if-content="body.section-front-page" />-->
+    <theme href="frontpage.html" css:if-content="body.section-front-page" />
+    <theme href="frontpage.html" css:if-content="body.section-kontakt-anfahrt" />
+    <theme href="frontpage.html" css:if-content="body.section-vermietung" />
+    <theme href="frontpage.html" css:if-content="body.section-feldenkrais" />
+    <theme href="frontpage.html" css:if-content="body.section-osteopathie" />
     <theme href="theme.html" css:if-content="#visual-portal-wrapper" />
     
     <!-- Apply rules to a standard Plone Webpage -->
@@ -58,7 +62,7 @@
         <before css:content=".portalMessage" method="raw" css:theme="#document-content" />
         
         <!-- Portal Columns -->
-        <replace css:content-children="#portal-column-one > *" css:theme-children="#sidebar-left" />
+        <replace css:content-children="#portal-column-one > *" css:theme-children="#sidebar" />
         
         <!-- Drop placeholder items to make the site validate -->
 	    <drop css:content="span.portletTopLeft" />
