@@ -160,6 +160,9 @@ dd.portletItem .navTreeItem a {
   color: black !important;
   text-transform: none;
 }
+.navTreeItemInPath {
+  color: black !important;
+}
 .hasChildrens {
   border: 1px solid red;
 }

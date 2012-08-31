@@ -655,7 +655,15 @@ dl.portlet li {
 }
 #content .documentDescription,
 #content #description {
-  color: #666;
+  color: #999999;
+  margin: 0px 0px 20px 0px;
+  line-height: 1.5em;
+  font-weight: normal;
+  font-style: italic;
+  font-family: Georgia;
+}
+.description {
+  color: #999999;
   margin: 0px 0px 20px 0px;
   line-height: 1.5em;
   font-weight: normal;
@@ -1277,7 +1285,7 @@ input.searchPage {
 .image-right {
   float: right;
   clear: both;
-  margin: 0.5em;
+  margin: 0.5em 0.5em 0.5em 2.8em;
 }
 .image-inline {
   float: none;

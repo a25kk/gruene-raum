@@ -249,7 +249,7 @@
     jQuery(document).ready(function($) {
       $(".tweets").tweet({
         join_text: "auto",
-        username: "kreativkombinat",
+        username: "DerGrueneRaum",
         avatar_size: 0,
         count: 1,
         auto_join_text_default: "", 
