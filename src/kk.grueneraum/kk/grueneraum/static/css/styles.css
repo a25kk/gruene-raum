@@ -747,6 +747,7 @@ table.listing tbody tr.odd td {
 }
 table.listing td {
   border-right: 1px solid #ddd;
+  width: 25%;
 }
 table.listing a {
   border: none;
