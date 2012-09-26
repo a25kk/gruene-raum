@@ -149,7 +149,7 @@ input {
   background: transparent;
   width: 100%;
   text-align: center;
-  padding: 17px 0px 0px 0px;
+  padding: 12px 0px 0px 0px;
   border: 0px solid black;
 }
 .header {
@@ -162,13 +162,13 @@ input {
   border: 0px solid black;
 }
 #logo {
-  margin: 35px 0px 0px 0px;
+  margin: 0px 0px 5px 0px;
   text-align: center;
   padding: 0px;
   background: transparent;
   border: 0px solid red;
-  width: 249px;
-  height: 27px;
+  width: 533px;
+  height: 41px;
   float: left;
 }
 .light {
@@ -185,10 +185,10 @@ input {
   display: none !important;
 }
 #below-content {
-  margin: 0px 0px 0px 0px;
+  margin: 0px auto;
   padding: 20px;
   width: 930px;
-  background: #efefef !important;
+  background: transparent !important;
   font-size: 0.8em;
 }
 .carousel {
@@ -263,16 +263,15 @@ input {
 }
 /*portal-globalnav*/
 #navigation-wrapper {
-  background: transparent;
+  background: #A6CB73;
   font-weight: normal;
-  line-height: 20px;
-  margin: 29px 0px 0px 0px !important;
+  margin: 3px 0px 0px 0px !important;
   padding: 0px;
   white-space: nowrap !important;
   list-style: none outside none;
-  width: 65%;
+  width: 100%;
   border: 0px solid red;
-  float: right;
+  float: left;
 }
 #main-nav {
   border: 0px solid red;
@@ -292,22 +291,22 @@ ul#main-nav {
   background: transparent;
 }
 #main-nav li a {
-  color: #5c7277;
+  color: white;
   margin: 0px 1px 0px 0px;
-  padding: 18px 5px 8px 5px;
+  padding: 8px 15px 5px 5px;
   text-decoration: none;
   text-transform: uppercase;
   display: block;
-  font-size: 0.7em;
+  font-size: 0.9em;
   text-shadow: none;
-  border-bottom: 10px solid #ffffff;
+  border-bottom: 0px solid #ffffff;
 }
 #main-nav li a:hover,
 #main-nav li.selected a,
 #main-nav li.selected a:hover {
-  color: white;
+  color: #5c7277;
   background: transparent;
-  border-bottom: 10px solid #8bbf5d;
+  border-bottom: 0px solid #8bbf5d;
 }
 #main-nav #portaltab-publikationen {
   background: transparent;
@@ -454,8 +453,9 @@ ul#main-nav {
   padding: 0px 0px 0px 0px !important;
   vertical-align: top;
   background: transparent;
-  font-size: 0.9em;
+  font-size: 1em;
   border: 0px solid blue;
+  width: 700px;
 }
 #sidebar {
   border: 0px solid blue;
@@ -465,6 +465,8 @@ ul#main-nav {
   vertical-align: top !important;
   background: transparent;
   min-height: 100%;
+  width: 200px !important;
+  float: right;
 }
 .section-front-page #sidebar,
 .login_form #sidebar {
@@ -694,7 +696,10 @@ dl.portlet li {
 .eventDetails {
   float: left;
   clear: left;
-  margin: 0;
+  margin: 0px 20px 0px 0px;
+  border: 0px solid red;
+  background: #efefef;
+  padding: 0px 10px 10px 10px;
 }
 table.listing,
 table.plain {

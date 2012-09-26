@@ -4,13 +4,7 @@
     xmlns:css="http://namespaces.plone.org/diazo/css"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     
-    <theme href="frontpage.html" css:if-content="body.section-front-page" />
-    <theme href="frontpage.html" css:if-content="body.section-kontakt-anfahrt" />
-    <theme href="frontpage.html" css:if-content="body.section-vermietung" />
-    <theme href="frontpage.html" css:if-content="body.section-feldenkrais" />
-    <theme href="frontpage.html" css:if-content="body.section-osteopathie" />
-    <theme href="frontpage.html" css:if-content="body.section-workshops" />
-    <theme href="frontpage.html" css:if-content="body.yoga" />
+
     <theme href="theme.html" css:if-content="#visual-portal-wrapper" />
     
     <!-- Apply rules to a standard Plone Webpage -->
