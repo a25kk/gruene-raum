@@ -379,8 +379,12 @@ ul#main-nav {
 	  background: transparent;
 }
 
+.photoAlbumFolder {
+	background: transparent !important;
+}
+
 .photoAlbumEntry {
-	border: 1px solid white;
+	border: 0px solid black;
 	color: #a6cb73 !important;
 	-webkit-border-radius: 3px !important;
 	-moz-border-radius: 3px !important;
@@ -390,6 +394,9 @@ ul#main-nav {
 	padding: 10px;
 	behavior: url(++theme++kk.grueneraum/js/PIE.htc);
 	position: relative;
+	display: inline-block;
+	width: 100%;
+	text-align: left;
 }
 
 .photoAlbumEntry:hover {
@@ -403,6 +410,10 @@ ul#main-nav {
 	margin: 0px 10px 0px 0px;
 	behavior: url(++theme++kk.grueneraum/js/PIE.htc);
 	position: relative;
+}
+
+.photoAlbumEntry a {
+	margin: 16px;
 }
 
 /* navi */
