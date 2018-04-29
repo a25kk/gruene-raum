@@ -1,4 +1,4 @@
-/* RESET */
+/* RESET*/
 * {
   margin: 0;
   padding: 0;
@@ -389,15 +389,12 @@ ul#main-nav {
   margin: 0px;
   -moz-border-radius: 3px 3px 3px 3px;
   /* Firefox */
-
   -webkit-border-radius: 3px 3px 3px 3px;
   /* WebKit */
-
   border-radius: 3px 3px 3px 3px;
   /* Standard */
   background: white;
   /* Fallback */
-
   background-color: rgba(255, 255, 255, 0.5);
   color: black;
   behavior: url(++theme++kk.grueneraum/js/PIE.htc);
@@ -414,7 +411,6 @@ ul#main-nav {
 #navigation a:hover {
   background: #a6cb73;
   /* Fallback */
-
   background-color: rgba(0, 100, 171, 0.5);
   behavior: url(++theme++kk.grueneraum/js/PIE.htc);
   position: relative;
@@ -428,7 +424,6 @@ ul#main-nav {
 #navigation a.current:visited {
   background: rgba(0, 100, 171, 0.5);
   /* Fallback */
-
   background-color: rgba(0, 100, 171, 0.5);
   behavior: url(++theme++kk.grueneraum/js/PIE.htc);
 }
