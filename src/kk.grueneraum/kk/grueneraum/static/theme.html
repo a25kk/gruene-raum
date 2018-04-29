@@ -106,21 +106,37 @@
 <noscript><p><img src="http://tkr.ade25.de/piwik.php?idsite=28" style="border:0;" alt="" /></p></noscript>
 <!-- End Piwik Code -->
 
-<!-- Start Cookie Plugin -->
 
-<script type="text/javascript">
 
-window.cookieconsent_options = {
 
-message: 'Diese Website nutzt Cookies, um bestmögliche Funktionalität bieten zu können.', dismiss: 'Ok, verstanden', learnMore: 'Mehr Infos', link: 'https://dergrueneraum.de/datenschutz', theme: 'light-top'
-
-};
-
+<!-- Begin Cookie Consent script https://cookiescript.info/ -->
+<link rel="stylesheet" type="text/css" href="//cookiescriptcdn.pro/libs/cookieconsent.7.min.css" />
+<a id="cookieconsent:learn_more" aria-label="learn more about cookies" role=button tabindex="0" class="cc-link" href="https://cookie-policy.org/" target="_blank">Mehr Infos</a><script>var cookieconsent_ts = 1525038253275; var learnmore2 = document.getElementById("cookieconsent:learn_more");learnmore2.setAttribute("style", "display:none");</script>
+<script src="//cookiescriptcdn.pro/libs/cookieconsent.7.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#a6cb73",
+      "text": "#ffffff"
+    },
+    "button": {
+      "background": "#006600"
+    }
+  },
+  "theme": "edgeless",
+  "content": {
+    "message": "Diese Website nutzt Cookies, um bestmögliche Funktionalität bieten zu können.",
+    "dismiss": "Ok, verstanden",
+    "link": "Mehr Infos",
+    "href": "https://dergrueneraum.de/datenschutz"
+  }
+})});
 </script>
+<noscript><a href="https://cookiescript.info/">Cookie consent script</a></noscript>
+<!-- End Cookie Consent script -->
 
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
-
-<!-- Ende Cookie Plugin -->
 
 
 </body>
